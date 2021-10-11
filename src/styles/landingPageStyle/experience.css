@@ -1,0 +1,53 @@
+
+.experience-section{
+    margin: 4rem 0rem;
+}
+
+.experience__container{
+    row-gap: 2.5rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.experience__content{
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    padding: 0 2rem;
+}
+
+.experience__number{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: .4rem;
+}
+
+.experience__img{
+    position: relative;
+}
+
+.experience__overlay{
+    overflow: hidden;
+}
+
+.experience__overlay:nth-child(1){
+    width: 263px;
+    margin-right: 2rem;
+}
+
+.experience__overlay:nth-child(2){
+    width: 120px;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+
+.experience__img-one,
+.experience__img-two{
+    transition: .3s;
+}
+
+.experience__img-one:hover,
+.experience__img-two:hover{
+    transform: scale(1.1);
+}

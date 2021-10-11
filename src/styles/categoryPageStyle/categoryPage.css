@@ -1,0 +1,55 @@
+.categoriesCard {
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 5rem;
+}
+
+.categories-image {
+  width: 10rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  height: 120px;
+}
+
+.categories-data {
+  padding: 1rem 0.5rem;
+}
+
+.categories-content {
+  background-color: aquamarine;
+  width: 10rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  background-color: #237905;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.categories-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 0.5rem;
+  color: white;
+}
+
+.category-name {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category-button {
+  padding: 0.3rem;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  width: 70%;
+}
+
+.category-button:hover {
+  background: white;
+  color: green;
+}

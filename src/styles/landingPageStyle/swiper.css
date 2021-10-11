@@ -1,0 +1,51 @@
+
+.discover__card {
+  width: 10rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 10rem;
+  overflow: var(--img-hidden);
+}
+
+.discover__data {
+  position: absolute;
+  bottom: 0.2rem;
+}
+
+.discover__title,
+.discover__description {
+  color: var(--white-color);
+}
+
+.discover__title {
+  font-size: 0.8rem;
+  margin-bottom: var(--mb-0-25);
+}
+
+.discover__img {
+  transition: var(--img-transition);
+}
+
+.discover__img:hover {
+  transform: var(--img-scale);
+}
+
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+.discover-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(180deg, rgba(18, 90, 0, 0) 1.91%, #000000 190.07%);
+  bottom: 0;
+  left: 0;
+  padding: 0.75rem;
+  overflow: var(--img-hidden);
+}

@@ -1,0 +1,47 @@
+.detail_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(180deg, #000000 -15%, rgba(196, 196, 196, 0) 100%);
+}
+
+.section-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  object-position: 90%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-bottom: 4px solid #237905;
+  z-index: -1;
+}
+
+.detail_section {
+  height: 58vh;
+  position: relative;
+  align-items: end;
+  justify-content: center;
+  overflow: auto;
+}
+
+.detail_play {
+  display: flex;
+  position: absolute;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(4, 177, 27);
+  width: 5rem;
+  border: 3px solid #237905;
+  right: 2rem;
+  border-radius: 5rem;
+}
+
+.play-icon {
+  font-size: 3rem;
+  color: white;
+}

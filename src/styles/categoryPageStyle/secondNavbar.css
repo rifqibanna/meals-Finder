@@ -1,0 +1,50 @@
+.navbar-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
+  align-items: center;
+  height: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: .4s;
+}
+
+.navbar-data h1 {
+  color: white;
+  font-size: 1.3rem;  
+}
+
+.navbar-icon {
+  text-align: center;
+  background: white;
+  position: absolute;
+  padding: 0.2rem;
+  border-radius: 5rem;
+  right: 1rem;
+  width: 3rem;
+  margin: 0;
+}
+
+a .home-icon {
+  display: block;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: green;
+}
+
+.scroll-navbar .navbar-data {
+  background-color: white;
+  transition: 0.4s;
+}
+
+.scroll-navbar .navbar-data h1 {
+  color: green;
+}
+
+.scroll-navbar .navbar-icon {
+  background: green;
+}
+
+.scroll-navbar .home-icon {
+  color: white;
+}

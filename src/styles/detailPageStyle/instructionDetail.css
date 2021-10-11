@@ -1,0 +1,11 @@
+.description_section {
+  margin-top: 3rem;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+}
+
+.description_text {
+  text-align: justify;
+  line-height: 1.5rem;
+}

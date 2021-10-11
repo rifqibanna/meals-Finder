@@ -1,0 +1,27 @@
+.ingredients_section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 12rem;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ingredients_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0rem 1rem;
+  overflow: auto;
+  height: 6rem;
+  overflow-x: hidden;
+}
+
+.ingredients_content {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+  background-color: #237905;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}

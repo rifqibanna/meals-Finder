@@ -1,0 +1,20 @@
+.scrollUp {
+  width: 2rem;
+  background-color: green;
+  padding: 0.3rem;
+  position: fixed;
+  bottom: -20%;
+  right: 1rem;
+  z-index: 100;
+  text-align: center;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+
+.scroll-icon {
+  color: white;
+}
+
+.show-scroll {
+  bottom: 5rem;
+}

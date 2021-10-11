@@ -1,0 +1,37 @@
+.random-items {
+  width: 15rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #237905;
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.random_img {
+  width: 15rem;
+  height: 9rem;
+  border-radius: 1rem;
+}
+
+.random_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random_meal-button {
+  width: 8rem;
+  margin-top: 0.4rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  background-color: #237905;
+}
+
+.random_meal-button a{
+    color: white;
+}
